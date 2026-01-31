@@ -113,3 +113,5 @@
 - Role-based authorization is enforced across all APIs.
 
 - Unauthorized access is restricted globally.
+
+### Future enhancements
