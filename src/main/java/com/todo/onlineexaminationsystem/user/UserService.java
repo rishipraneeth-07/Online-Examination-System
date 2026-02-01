@@ -1,4 +1,4 @@
 package com.todo.onlineexaminationsystem.user;
 
-public class userService {
+public class UserService {
 }
