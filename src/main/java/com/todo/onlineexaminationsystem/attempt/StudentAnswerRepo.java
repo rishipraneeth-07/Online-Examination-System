@@ -1,4 +1,11 @@
 package com.todo.onlineexaminationsystem.attempt;
 
-public class StudentAnswerRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface StudentAnswerRepo extends JpaRepository<StudentAnswer,Long> {
+    List<StudentAnswer> findByExamAttempt(ExamAttempt examAttempt);
 }
