@@ -1,10 +1,7 @@
-package com.todo.onlineexaminationsystem.dto;
+package com.todo.onlineexaminationsystem.attempt;
 
 
-import com.todo.onlineexaminationsystem.attempt.ExamAttempt;
-import com.todo.onlineexaminationsystem.attempt.ExamAttemptRepo;
-import com.todo.onlineexaminationsystem.attempt.StudentAnswer;
-import com.todo.onlineexaminationsystem.attempt.StudentAnswerRepo;
+import com.todo.onlineexaminationsystem.dto.ExamSubmissionRequest;
 import com.todo.onlineexaminationsystem.exam.Exam;
 import com.todo.onlineexaminationsystem.exam.ExamRepo;
 import com.todo.onlineexaminationsystem.question.Question;

@@ -1,6 +1,5 @@
 package com.todo.onlineexaminationsystem.attempt;
 
-import com.todo.onlineexaminationsystem.dto.AttemptService;
 import com.todo.onlineexaminationsystem.dto.ExamSubmissionRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
