@@ -36,6 +36,15 @@ public class AttemptServiceImpl implements AttemptService {
     }
 
     @Override
+    public List<ExamAttempt> getAttemptsByStudent(String studentEmail) {
+
+        User student = userService.getUserByEmail(studentEmail)
+                .orElseThrow(() -> new RuntimeException("Student not found"));
+
+        return attemptRepository.findByStudent(student);
+    }
+
+    @Override
     public ExamAttempt submitExam(ExamSubmissionRequest request, String studentEmail) {
 
         User student = userService.getUserByEmail(studentEmail)
@@ -77,7 +86,7 @@ public class AttemptServiceImpl implements AttemptService {
 
         ExamAttempt savedAttempt = attemptRepository.save(attempt);
 
-        // Save each student answer
+
         for (Question question : questions) {
             StudentAnswer answer = new StudentAnswer();
             answer.setExamAttempt(savedAttempt);
