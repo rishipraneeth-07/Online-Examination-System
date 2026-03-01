@@ -29,3 +29,34 @@ STUDENT,
 - Only enabled users can access the system.
 - Admin has access to all system data.
 
+## Exam Creation Flow (Teacher)
+- Teacher logs in and creates an exam.
+- Each exam includes:
+Title
+Description
+Duration (in minutes)
+Start time
+End time
+- Validations enforced
+- Only the exam creator can manage their exam.
+
+## Question Management Flow (Teacher)
+
+- Teacher adds multiple-choice (MCQ) questions to an exam.
+- Each question includes:
+  1) Question text <br>
+  2) 4 options (A, B, C, D) <br>
+  3) Correct answer <br>
+- Validations:
+Correct answer must be A/B/C/D
+Only the exam owner can add questions
+
+## Exam Availability Flow (Student)
+- Student submits exam answers
+- Student submits exam answers:
+  1) Exam is currently active
+  2) Student role is valid
+  3) Score is automatically calculated
+- Score is automatically calculated
+- Student has not already attempted
+
