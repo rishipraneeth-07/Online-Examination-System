@@ -80,5 +80,11 @@ Only the exam owner can add questions
 - Teacher can view attempts for their exams.
 - Role-based restrictions are enforced for result access.
 
-
+## Architecture
+- Controller Layer – Handles API requests
+- Service Layer – Contains business logic and validations
+- Repository Layer – Handles database operations
+- Entity Layer – Defines database models
+- Security Layer – JWT & Spring Security configuration
+- DTO Layer – Request payload abstraction
 
