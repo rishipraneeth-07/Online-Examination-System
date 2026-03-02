@@ -60,3 +60,25 @@ Only the exam owner can add questions
 - Score is automatically calculated
 - Student has not already attempted
 
+## Exam Attempt Flow (Student)
+ - Student submits exam answers
+ - System validates:
+   1) Exam is currently active
+   2) Student role is valid
+   3) Student has not already attempted
+ - Score is automatically calculated.
+ - Student answers are stored separately.
+
+## Evaluation Flow
+- System compares submitted answers with correct answers
+- Marks are calculated automatically
+- Total score is stored in the exam attempt
+- Submission timestamp is recorded
+
+## Result Access Flow
+- Student can view their own attempt history.
+- Teacher can view attempts for their exams.
+- Role-based restrictions are enforced for result access.
+
+
+
