@@ -88,3 +88,11 @@ Only the exam owner can add questions
 - Security Layer – JWT & Spring Security configuration
 - DTO Layer – Request payload abstraction
 
+## Project Status
+ - Authentication & Security
+ - Exam Management
+ - Question Management
+ - Attempt & Scoring Engine
+ - Role-Based Authorization
+ - Global Exception Handling
+
