@@ -35,8 +35,10 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorResponse> handleGeneral(Exception ex) {
 
+        ex.printStackTrace();
+
         ErrorResponse error = new ErrorResponse(
-                "Something went wrong",
+                ex.getMessage(),
                 HttpStatus.INTERNAL_SERVER_ERROR.value(),
                 LocalDateTime.now()
         );
