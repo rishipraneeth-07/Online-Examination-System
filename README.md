@@ -60,3 +60,39 @@ Only the exam owner can add questions
 - Score is automatically calculated
 - Student has not already attempted
 
+## Exam Attempt Flow (Student)
+ - Student submits exam answers
+ - System validates:
+   1) Exam is currently active
+   2) Student role is valid
+   3) Student has not already attempted
+ - Score is automatically calculated.
+ - Student answers are stored separately.
+
+## Evaluation Flow
+- System compares submitted answers with correct answers
+- Marks are calculated automatically
+- Total score is stored in the exam attempt
+- Submission timestamp is recorded
+
+## Result Access Flow
+- Student can view their own attempt history.
+- Teacher can view attempts for their exams.
+- Role-based restrictions are enforced for result access.
+
+## Architecture
+- Controller Layer – Handles API requests
+- Service Layer – Contains business logic and validations
+- Repository Layer – Handles database operations
+- Entity Layer – Defines database models
+- Security Layer – JWT & Spring Security configuration
+- DTO Layer – Request payload abstraction
+
+## Project Status
+ - Authentication & Security
+ - Exam Management
+ - Question Management
+ - Attempt & Scoring Engine
+ - Role-Based Authorization
+ - Global Exception Handling
+
