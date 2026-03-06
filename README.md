@@ -96,3 +96,16 @@ Only the exam owner can add questions
  - Role-Based Authorization
  - Global Exception Handling
 
+# Testing(Postman)
+
+# Login as Teacher
+<img width="1459" height="1250" alt="image" src="https://github.com/user-attachments/assets/549e2918-5fd7-4379-8e1e-6ffb1eaae3d7" />
+
+# Create Exam(Teacher)
+<img width="1457" height="1242" alt="image" src="https://github.com/user-attachments/assets/169b3e90-529a-4472-bba4-108b44e99893" />
+
+# Get Exam(Teacher)
+<img width="1462" height="1348" alt="image" src="https://github.com/user-attachments/assets/06a9711d-a6e8-42b8-9858-4f78161c1bc2" />
+
+
+
