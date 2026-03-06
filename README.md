@@ -107,5 +107,8 @@ Only the exam owner can add questions
 # Get Exam(Teacher)
 <img width="1462" height="1348" alt="image" src="https://github.com/user-attachments/assets/06a9711d-a6e8-42b8-9858-4f78161c1bc2" />
 
+# Add Question
+<img width="1451" height="999" alt="image" src="https://github.com/user-attachments/assets/fb798f5e-ee38-4b4e-ae0b-e3004fef9f7a" />
+
 
 
