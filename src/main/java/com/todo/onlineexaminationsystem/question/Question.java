@@ -1,5 +1,6 @@
 package com.todo.onlineexaminationsystem.question;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.todo.onlineexaminationsystem.exam.Exam;
 import jakarta.persistence.*;
 import lombok.*;
@@ -32,6 +33,7 @@ public class Question {
     private String optionD;
 
     @Column(nullable = false)
+    @JsonIgnore
     private String correctAnswer; // A, B, C, D
 
     @ManyToOne
