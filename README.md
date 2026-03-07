@@ -110,5 +110,8 @@ Only the exam owner can add questions
 # Add Question
 <img width="1451" height="999" alt="image" src="https://github.com/user-attachments/assets/fb798f5e-ee38-4b4e-ae0b-e3004fef9f7a" />
 
+# Login as Student
+<img width="1456" height="1046" alt="image" src="https://github.com/user-attachments/assets/c9c13142-19fe-4198-ad76-19dc1926bd6f" />
+
 
 
