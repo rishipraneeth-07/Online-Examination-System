@@ -113,5 +113,15 @@ Only the exam owner can add questions
 # Login as Student
 <img width="1456" height="1046" alt="image" src="https://github.com/user-attachments/assets/c9c13142-19fe-4198-ad76-19dc1926bd6f" />
 
+## Technology Stack
 
+- **Language:** Java
+- **Framework:** Spring Boot
+- **Security:** Spring Security, JWT
+- **Authentication:** Stateless authentication
+- **Password Hashing:** BCrypt
+- **Database:** MySQL
+- **Data Access:** Spring Data JPA, Hibernate
+- **API Testing:** Postman
+- **Build Tool:** Maven
 
